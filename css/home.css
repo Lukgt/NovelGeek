@@ -1,0 +1,62 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    border: 1px solid #ccc;
+    justify-content:space-between;
+    padding: 20px;
+}
+.top {
+    align-items: center;
+    margin: 50px;
+}
+.card__image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #272133;
+    margin: 50px;
+}
+
+main {
+    display: flex;
+    height: 80vh;
+    border: 1px solid #ccc;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.card {
+    margin: 20px 10px
+}
+.livro {
+    display: flex;
+    border: 1px solid #272133;
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 100px;
+    height: 150px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    text-align: center;
+}
+
+.footer {
+    background-color: #ae790f;
+    color: #fff;
+    width: 100%;
+    font-size: 12px;
+}
+.footer h2 {
+    font-weight: 500 ;
+}
