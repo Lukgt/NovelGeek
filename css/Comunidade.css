@@ -1,0 +1,85 @@
+/* Estilo para a seção de Comunidade */
+.community {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para cada post */
+.post {
+    background-color: #4abafa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título do post */
+.post h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Estilo para os metadados do post */
+.post .meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o conteúdo do post */
+.post .content {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para a lista de comentários */
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para cada comentário */
+.comment-list li {
+    margin-bottom: 15px;
+}
+
+/* Estilo para os metadados do comentário */
+.comment-meta {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Estilo para o conteúdo do comentário */
+.comment-content {
+    color: #333;
+}
+
+/* Estilo para o formulário de comentário */
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form h4 {
+    margin-bottom: 10px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-form textarea {
+    height: 100px;
+}
+
+.comment-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

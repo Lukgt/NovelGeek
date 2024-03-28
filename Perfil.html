@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovelGeek - Comunidade</title>
+    <link rel="stylesheet" href="css/Menu.css">
+    <link rel="stylesheet" href="css/Perfil.css">
+
+</head>
+<body>
+    <header>
+        <div class="menu__wrapper">
+            <div class="menu__bar">
+                <a
+                    href="#"
+                    title="Logo"
+                >
+                    <img
+                        class="logo"
+                        src="img/logo.png"
+                        
+                        title='Logo'
+                        alt='Logo'
+                    >
+                </a>
+                <img
+                    class="menu-icon"
+                    src="img/burger-menu.svg"
+                    title='Burger Menu'
+                    alt='Burger Menu'
+                    onclick="toggleMenu(this)"
+                >
+                <ul class="navigation">
+                    <li><a href="Home.html">Biblioteca</a></li>
+                    <li><a href="Comunidade.html">Comunidade</a></li>
+                    <li><a href="Perfil.html">Perfil</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="profile">
+            <h2>Meu Perfil</h2>
+            <div class="profile-content">
+                <div class="avatar">
+                    <img src="img/avatar.jpg" alt="Avatar">
+                </div>
+                <div class="user-details">
+                    <h3>Nome de Usuário</h3><br>
+                    <p>Email: usuario@email.com</p>
+                    <p>Data de Registro: 01/01/2024</p>
+                    <p>Status: Ativo</p>
+                </div>
+            </div>
+            <div class="user-activity">
+                <h3>Minha Atividade</h3><br>
+                <ul>
+                    <li>Postagens na Comunidade: 10</li>
+                    <li>Comentários na Comunidade: 20</li>
+                    <li>Livros Lidos: 5</li>
+                    <!-- Adicione mais atividades conforme necessário -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 NovelGeek. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/Script.js"></script>
+</body>
+</html>
