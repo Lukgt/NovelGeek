@@ -17,7 +17,7 @@ self.addEventListener('install', event => {
 
         './js/Script.js',
 
-        './img/logo.png',
+        './img/logo.svg',
         './img/novel1.webp',
         './img/novel2.webp',
         './img/novel3.webp',
