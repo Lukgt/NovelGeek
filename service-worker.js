@@ -18,10 +18,10 @@ self.addEventListener('install', event => {
         './js/Script.js',
 
         './img/logo.png',
-        './img/novel1.png',
-        './img/novel2.png',
-        './img/novel3.png',
-        './img/novel4.png',
+        './img/novel1.webp',
+        './img/novel2.webp',
+        './img/novel3.webp',
+        './img/novel4.webp',
         
        
         // Novos ícones

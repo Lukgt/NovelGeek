@@ -58,7 +58,7 @@
     position: absolute; /* Adicionado */
     bottom: 20px; /* Adicionado */
     right: 20px; /* Adicionado */
-    background-color: #4CAF50;
+    background-color: #261E5A;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -68,12 +68,5 @@
 }
 
 .read-button:hover {
-    background-color: #45a049;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1.5em;
+    background-color: #261E5A;
 }
