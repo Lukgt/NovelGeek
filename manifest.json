@@ -61,7 +61,7 @@
       }
     ],
     
-    "start_url": "index.html",
+    "start_url": "Home.html",
     "display": "standalone",
     "orientation": "portrait",
     "theme_color": "#261e5a",
