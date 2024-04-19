@@ -1,17 +1,17 @@
 /* Estilo para a seção de Comunidade */
 .community {
-    max-width: 900px;
     margin: 0 auto;
+    margin-top: 80px;
     padding: 20px;
 }
 
 /* Estilo para cada post */
 .post {
-    background-color: #4abafa;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.426);
 }
 
 /* Estilo para o título do post */
@@ -42,6 +42,11 @@
 /* Estilo para cada comentário */
 .comment-list li {
     margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.426);
 }
 
 /* Estilo para os metadados do comentário */
@@ -58,6 +63,7 @@
 /* Estilo para o formulário de comentário */
 .comment-form {
     margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 .comment-form h4 {
@@ -83,3 +89,4 @@
     border-radius: 5px;
     cursor: pointer;
 }
+

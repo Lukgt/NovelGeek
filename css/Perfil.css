@@ -3,10 +3,10 @@
 
 main {
     padding: 20px;
-    max-width: 1200px;
     margin-top: 70px;
-    height: 79.9vh;
 }
+
+
 
 /* Seção de perfil */
 .profile {
@@ -66,14 +66,6 @@ main {
 .user-activity li {
     margin-bottom: 0.5em;
     font-size: 1em;
-}
-
-/* Rodapé */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1.5em;
 }
 
 /* Responsividade */
