@@ -1,7 +1,6 @@
 /* Estilo para a seção de Comunidade */
 .community {
     margin: 0 auto;
-    margin-top: 80px;
     padding: 20px;
 }
 
@@ -63,7 +62,7 @@
 /* Estilo para o formulário de comentário */
 .comment-form {
     margin-top: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .comment-form h4 {

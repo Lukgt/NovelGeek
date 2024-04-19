@@ -1,17 +1,16 @@
-main {
-    margin: 10px;
-    padding-top: 80px;
-    padding-bottom: 90px;
-}
 
 /* main */
+.titulo{
+    padding-left: 20px;
+}
+
 .library {
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
-    justify-items: center;
 }
 
 
